@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class ProyectosComponent {
   desc: boolean = true;
   indice: number = -1;
-  proyectos: any[] = [{ titulo: 'Proyecto IA', ruta: '/proyectoIA', img: 'ia.png', descripcion: 'Consumiendo como API una IA entrenada en Python, la misma es capaz de determinar el tipo de objeto que se envie como imagen desde el Front-End en Angular', fecha: '21/09/2023' },
+  proyectos: any[] = [{ titulo: '' },
   ]
 
   constructor(private router : Router){}
